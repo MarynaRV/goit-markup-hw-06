@@ -509,17 +509,60 @@
             </label>
           </form>
         </div>
+
+        <div class="button-subscribe-div">
+          <button class="button-subscribe">Subscribe</button>
+          <svg class="footer-subscribe-icon" width="24" height="20" aria-label="icon-subscribe">
+            <use href="./images/icons.svg#icon-subscribe"></use>
+          </svg>
+        </div>
       </div>
     </footer>
 
     <!----------------- backdrop ---------------->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-text-contact">Leave your contacts and we will call you back</p>
+        <form class="contact-form">
+          <label class="contact-form-label">
+            <span class="modal-text-desc">Name</span>
+            <input
+              class="contact-form-input"
+              type="text"
+              name="user_name"
+              required
+              pattern="[a-zA-Za-яА-ЯіІїЇєЄ']+"
+            />
+          </label>
+          <label class="contact-form-label">
+            <span class="modal-text-desc">Phone</span>
+            <input
+              class="contact-form-input"
+              type="tel"
+              name="user_tel"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            />
+          </label>
+          <label class="contact-form-label">
+            <span class="modal-text-desc">Email</span>
+            <input class="contact-form-input" type="email" name="user_email" required />
+          </label>
+          <label class="contact-form-label">
+            <span class="modal-text-desc">Comment</span>
+            <textarea class="textarea" name="user_comment" placeholder="Text input"></textarea>
+          </label>
+          <label class="checkbox-form">
+            <input class="checkbox-input" type="checkbox" name="user_policy" />
+            I accept the terms and conditions of the
+          </label>
+        </form>
+        <button class="button-send" type="submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
