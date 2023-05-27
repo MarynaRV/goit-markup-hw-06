@@ -529,21 +529,23 @@
         </button>
         <p class="modal-text-contact">Leave your contacts and we will call you back</p>
         <form class="contact-form">
-          <label class="contact-form-label">
-            <span class="modal-text-desc">Name</span>
-            <div class="form-input-wrapper">
-              <input
-                class="contact-form-input"
-                type="text"
-                name="user_name"
-                required
-                pattern="[a-zA-Za-яА-ЯіІїЇєЄ']+"
-              />
-              <svg class="modal-icon" width="12" height="12" aria-label="icon-person">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
-          </label>
+          <div class="contact-form-div">
+            <label class="contact-form-label">
+              <span class="modal-text-desc">Name</span>
+              <div class="form-input-wrapper">
+                <input
+                  class="contact-form-input"
+                  type="text"
+                  name="user_name"
+                  required
+                  pattern="[a-zA-Za-яА-ЯіІїЇєЄ']+"
+                />
+                <svg class="modal-icon" width="12" height="12" aria-label="icon-person">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
+            </label>
+          </div>
           <label class="contact-form-label">
             <span class="modal-text-desc">Phone</span>
             <div class="form-input-wrapper">

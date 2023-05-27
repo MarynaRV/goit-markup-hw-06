@@ -759,6 +759,10 @@ svg {
   pointer-events: none;
 }
 
+.contact-form-div {
+  margin-bottom: 8px;
+}
+
 .contact-form-label {
   display: block;
   padding-left: 24px;
