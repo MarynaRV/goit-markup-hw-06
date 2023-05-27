@@ -771,10 +771,10 @@ svg {
   margin-bottom: 4px;
 }
 
-.contact-form-label-comment {
+/* .contact-form-label-comment {
   display: block;
   margin-bottom: 16px;
-}
+} */
 
 .contact-form-input {
   width: 100%;
@@ -858,16 +858,6 @@ svg {
   margin-bottom: 4px;
 }
 
-.modal-text-desc {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-
 .text-accept,
 .link-privacy-policy {
   font-weight: 400;
@@ -905,4 +895,5 @@ svg {
 .form-input-wrapper {
   position: relative;
   display: block;
+  margin-top: 4px;
 }
