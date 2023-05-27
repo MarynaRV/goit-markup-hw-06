@@ -530,6 +530,10 @@ svg {
   margin-left: 80px;
 }
 
+.footer-form {
+  display: flex;
+}
+
 .subscribe {
   color: #ffffff;
   font-weight: 500;
@@ -542,7 +546,6 @@ svg {
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  border-radius: 4px;
   margin-top: 16px;
 }
 
@@ -713,7 +716,7 @@ svg {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding-top: 72px;
+  padding: 72px 24px 24px 24px;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -759,21 +762,13 @@ svg {
   pointer-events: none;
 }
 
-.contact-form-div {
-  margin-bottom: 8px;
-}
-
 .contact-form-label {
   display: block;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .contact-form-label-comment {
   display: block;
-  padding-left: 24px;
-  padding-right: 24px;
   margin-bottom: 16px;
 }
 
@@ -814,11 +809,6 @@ svg {
   border-color: #4d5ae5;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-form {
-  padding-left: 24px;
-  padding-right: 24px;
 }
 
 .button-send {
