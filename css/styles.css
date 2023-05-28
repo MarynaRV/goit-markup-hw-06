@@ -532,6 +532,7 @@ svg {
 
 .footer-form {
   display: flex;
+  position: relative;
 }
 
 .subscribe {
@@ -547,26 +548,35 @@ svg {
   width: 264px;
   height: 40px;
   margin-top: 16px;
-}
-
-.button-subscribe-div {
-  position: relative;
-  margin-left: 24px;
+  padding-left: 16px;
+  border: none;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .button-subscribe {
-  position: absolute;
-  background-color: #4d5ae5;
-  color: #ffffff;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  display: flex;
+  padding: 8px 24px;
+  background-color: #4d5ae5;
   border-radius: 4px;
+  margin-top: 16px;
+  margin-left: 24px;
+  color: #ffffff;
 }
 
 .footer-subscribe-icon {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  display: block;
+  width: 24px;
+  height: 24px;
+  right: 16px;
 }
 
 /* ================= Portfolio =================*/
@@ -770,11 +780,6 @@ svg {
   display: block;
   margin-bottom: 4px;
 }
-
-/* .contact-form-label-comment {
-  display: block;
-  margin-bottom: 16px;
-} */
 
 .contact-form-input {
   width: 100%;
