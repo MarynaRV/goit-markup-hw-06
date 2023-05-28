@@ -932,13 +932,13 @@ svg {
   margin-top: 4px;
 }
 
-.checkbox-castom {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
+.text-accept {
   width: 16px;
   height: 16px;
-  padding: 4px 3px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
+  margin-right: 8px;
 }
 
 .checkbox-castom-icon {
