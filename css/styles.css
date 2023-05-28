@@ -901,10 +901,6 @@ svg {
   line-height: 1.33;
 }
 
-.text-accept {
-  color: #8e8f99;
-}
-
 .link-privacy-policy {
   color: var(--color-privat);
 }
@@ -936,7 +932,7 @@ svg {
   margin-top: 4px;
 }
 
-.checkbox-input {
+.visually-hidden {
   appearance: none;
   position: absolute;
 }
