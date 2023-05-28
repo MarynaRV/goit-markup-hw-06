@@ -846,29 +846,6 @@ svg {
   margin-bottom: 24px;
 }
 
-.button-send {
-  width: 169px;
-  height: 56px;
-  background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: #ffffff;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  outline: none;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  cursor: pointer;
-}
-
-.button-send:hover,
-.button-send:focus {
-  background-color: #404bbf;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-text-contact {
   font-weight: 500;
   font-size: 16px;
@@ -939,7 +916,7 @@ svg {
   border: 1px solid rgba(46, 47, 66, 0.4);
   cursor: pointer;
   margin-right: 8px;
-  display: inline;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -950,4 +927,27 @@ svg {
 }
 .checkbox-input:checked + .checkbox-castom .checkbox-castom-icon {
   opacity: 1;
+}
+
+.button-send {
+  min-width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  outline: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.button-send:hover,
+.button-send:focus {
+  background-color: #404bbf;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
