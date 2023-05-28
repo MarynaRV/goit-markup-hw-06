@@ -932,11 +932,6 @@ svg {
   margin-top: 4px;
 }
 
-.visually-hidden {
-  appearance: none;
-  position: absolute;
-}
-
 .checkbox-castom {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
