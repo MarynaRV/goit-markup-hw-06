@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <!-------- HEADER -------->
+    <!-- HEADER -->
     <header class="page-header">
       <div class="page-header-div container">
         <nav class="page-navigation list">
@@ -53,7 +53,7 @@
     </header>
 
     <main>
-      <!---------- HERO ---------->
+      <!-- HERO -->
       <section class="hero">
         <div class="hero-div">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -61,7 +61,7 @@
         </div>
       </section>
 
-      <!--------- INFO --------->
+      <!-- INFO -->
       <section class="section-info">
         <div class="div-container">
           <h2 class="info-header visually-hidden">Info</h2>
@@ -402,7 +402,7 @@
         </div>
       </section>
 
-      <!----- Customers ----->
+      <!-- CUSTOMERS -->
       <section class="customers">
         <div class="container">
           <h2 class="title">Customers</h2>
@@ -454,7 +454,7 @@
       </section>
     </main>
 
-    <!----------------- FOOTER ---------------->
+    <!-- ================ FOOTER ================ -->
     <footer class="footer-list section">
       <div class="container container-footer">
         <div class="footer-logo-container">
@@ -518,7 +518,7 @@
       </div>
     </footer>
 
-    <!----------------- backdrop ---------------->
+    <!-- =============== backdrop ================ -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -566,10 +566,14 @@
           </div>
           <label class="contact-form-label">Comment</label>
           <textarea class="textarea" name="user_comment" placeholder="Text input"></textarea>
-          <label class="checkbox-form"></label>
-          <input class="checkbox-input" type="checkbox" name="user_policy" />
-          <span class="text-accept">I accept the terms and conditions of the</span>
-          <a href="" class="link-privacy-policy">Privacy Policy</a>
+          <label class="checkbox-form">
+            <input class="checkbox-input" type="checkbox" name="user_policy" />
+            <svg class="checkbox-castom" width="10" height="8" aria-label="icon-check">
+              <use class="checkbox-castom-icon" href="./images/icons.svg#icon-check"></use>
+            </svg>
+            <span class="text-accept">I accept the terms and conditions of the</span>
+            <a href="" class="link-privacy-policy">Privacy Policy</a>
+          </label>
           <button type="submit" class="button-send">Send</button>
         </form>
       </div>
