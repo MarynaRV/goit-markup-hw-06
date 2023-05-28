@@ -8,6 +8,7 @@
   --color-button: #e7e9fc;
   --color-icon: #8e8f99;
   --color-privat: #4d5ae5;
+  --color-check: #ffffff;
 }
 
 .list {
@@ -925,8 +926,17 @@ svg {
 .checkbox-castom-icon {
   opacity: 0;
 }
-.checkbox-input:checked + .checkbox-castom .checkbox-castom-icon {
+
+.checkbox-input:checked + .checkbox-form .checkbox-castom-icon {
   opacity: 1;
+}
+
+.checkbox-input:checked + .checkbox-form .text-accept {
+  opacity: 1;
+  background-color: var(--text-color-blue);
+  border: none;
+  fill: var(--color-check);
+  border-color: var(--text-color-blue);
 }
 
 .button-send {
@@ -947,11 +957,11 @@ svg {
   margin-bottom: 24px;
   cursor: pointer;
   border: none;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-send:hover,
 .button-send:focus {
   background-color: #404bbf;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
