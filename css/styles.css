@@ -930,6 +930,9 @@ svg {
 }
 
 .button-send {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
@@ -943,6 +946,7 @@ svg {
   margin-top: 24px;
   margin-bottom: 24px;
   cursor: pointer;
+  border: none;
 }
 
 .button-send:hover,
