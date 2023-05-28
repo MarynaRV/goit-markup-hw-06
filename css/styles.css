@@ -936,6 +936,7 @@ svg {
   background-color: var(--text-color-blue);
   border: none;
   fill: var(--color-check);
+  color: var(--color-check);
   border-color: var(--text-color-blue);
 }
 
