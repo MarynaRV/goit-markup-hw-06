@@ -581,10 +581,10 @@ svg {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
+  margin-right: 16px;
 }
 
 .footer-subscribe-icon {
-  position: absolute;
   display: block;
   width: 24px;
   height: 24px;
@@ -907,7 +907,6 @@ svg {
 .form-input-wrapper {
   position: relative;
   display: block;
-  margin-top: 4px;
 }
 
 .text-accept {
